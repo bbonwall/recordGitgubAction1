@@ -14,6 +14,6 @@ jobs:
     - name: pip 업그레이드!!
       run: python -m pip install --upgrade pip    
     - name: pip 인스톨!!
-      run: pip install -r requiments.txt    
+      run: pip install -r requirements.txt    
     - name: 파이썬 실행!!
       run: python test.py      
