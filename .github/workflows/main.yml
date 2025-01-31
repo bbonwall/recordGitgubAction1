@@ -4,11 +4,11 @@ on : [push]
 
 jobs:
   build:
-    runs-on:ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
-    - name:hello wordl 출력!!
-      run:echo Hello, wordl!
-    - name:디렉토리 출력!!
-      run:ls -al
-    - name:파이썬 버전 출력!!
-      run:python -V
+    - name: hello wordl 출력!!
+      run: echo Hello, wordl!
+    - name: 디렉토리 출력!!
+      run: ls -al
+    - name: 파이썬 버전 출력!!
+      run: python -V
