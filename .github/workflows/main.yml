@@ -8,7 +8,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: 파일 목록 출력!!
-      run: ls -al
+      run: ls 
     - name: 파이썬 패키치 확인!!
       run: pip list
     - name: 파이썬 실행!!
